@@ -1,0 +1,128 @@
+*{
+    text-decoration: none;
+    
+}
+body {
+    background-color: #f1efef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ header {
+    color:hsla(16, 100%, 86%, 0.936) ;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 0px 20px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+}
+main {
+    min-height: 100vh; 
+}
+ .hero { background-image: url(cool.jpg);
+    font-size: 1.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:hsla(215, 71%, 49%, 0.936) ;
+    position: relative;
+    height: 100vh;
+}
+.hero .overlay{
+    z-index: 50;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 11, 11, 0.569);
+}
+.hero .content{
+    z-index: 55;
+    color: #fff;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+    gap: 80px;
+}
+.about-image, .about-text {
+  flex: 50 50 40%;
+}
+.about-image{
+ display: flex;
+ justify-content: flex-start;
+}
+.about-image img {
+ width: 100%;
+ max-width: 450px;
+ height: auto;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.8em;
+}
+.click {
+    font-size: 1.2em;       
+}
+.contact {
+    display: flex;
+    gap: 40px;
+}
+.contact-left {
+    flex: 1;
+    font-size: 1.5em;
+}
+.contact-left button {
+    margin: 20px;
+}
+.contact-right {
+    flex: 1;
+}
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+}
+footer {
+    background:#222 ;color: #fff;padding: 40px 10%;
+    font-family:arial, sans-serif;
+}
+.footer-content {
+    display: flex;justify-content: space-between;flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.footer-info h2 {margin: 0 0 10px;}
+.footer-info p {color: #ccc;font-style: italic;}
+.footer-links ul {list-style: none;padding: 0;margin: 0;}
+.footer-links li {margin-bottom: 8px;}
+.footer-links a {color: white;text-decoration: none;}
+.footer-links .contact-link {color: #87ceeb;}
+footer hr {border: none;height: 1px;background: #555;margin: 20px 0;}
+.footer-bottom {
+    text-align: center; color: #ccc; font-size: 0.9rem;
+}
+button {
+    color: #3040eb;
+    padding: 12px 32px;
+    border-radius: 999px;
+}

@@ -4,54 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alberto code</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
   <header>
-    <h1>Mon site d'appentissage</h1>
+    <h1>Alberto la carte</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="a-propos.html">A propos</a></li>
-        <li><a href="signup.html">Inscription</a></li>
-        <li><a href="login.html">Connexion</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="a-propos.html">About</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Bienvenue sur mon site</h2>
-      <p>Je suis débutant en développement web.
-         Ce site sert a pratiquer HTML, CSS et javascript.
-      </br>Ce site est mon espace d'apprentissage du développment web.
-      </p>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Welcome to my personnal website</h2>
+        <p>I am a beginner in web development.
+            <br> This website is used to practice HTML,CSS and javascript,
+            it is my learning space for web development.
+        </p>
+        <button class="click">Contact me</button>
+      </div>
+      
     </section>
-    <section>
-      <h2>Ce que j'apprends actuellement: </h2>
-      <ul>
-        <li>Comprendredre HTML et CSS</li>
-        <li>Apprendre les bases de javascript</li>
-        <li>Git</li>
-        <li>créer des pages fonctionnelles</li>
-      </ul>
+    <section class="about">
+      <div class="about-image">
+        <img src="alberto.jpg" alt="une photo de moi">
+      </div>
+      <div class="about-text">
+        <h2> My Current goal</h2>
+        <ul>
+          <li>Mastering HTML and CSS fundamentals </li>
+          <li>Learning javascript core concepts</li>
+          <li>Gaining proficiency in Git</li>
+          <li>Building fully functional web pages</li>
+        </ul>
+        <button class="click">Click me</button>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-left">
+        <p>They say good advice is worth its weight
+          in gold, so I'm here to strike it rich !
+        </p>
+        <p> I'm Alberto, and I'm just starting my journey in
+          Web development.
+        </p>
+        <p> If you'd like to share a bit of your wisdom or
+          give me a strategic boost, feel free to message me right here.
+          I promise to put it to good use !
+        </p>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="message"
+          required> </textarea>
+          <button type="submit">send</button>
+        </form>
+      </div> 
     </section>
   </main>
 
   <footer>
-    <p>&copy;2026-  Site d'apprentissage personnel</p>
-     <nav>
+    <div class="footer-content">
+      <div class="footer-info">
+        <h2>Alberto</h2>
+        <p>This is my own portfolio</p>
+    </div>
+    <div class="footer-links">
+      <h3>Links</h3>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="a-propos.html">A propos</a></li>
-        <li><a href="signup.html">Inscription</a></li>
-        <li><a href="login.html">Connexion</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="a-propos.html">About</a></li>
+        <li><a href="#" class="contact-link">Contact</a></li>
       </ul>
-    </nav>
-  </footer>
+     </div>
+    </div>
 
-  <a href="login.html">Se connecter</a> |
-  <a href="signup.html">S'inscrire</a> |
-  <a href="a-propos.html">A propos</a><br>
+    <hr>
+    <div class="footer-bottom">
+      <p> &copy; 2026- All rights reserved</p>
+    </div>
+  </footer>
   
 </body>
 </html>
