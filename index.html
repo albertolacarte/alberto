@@ -6,95 +6,148 @@
       viewport" content="width=device-width, initial-scale=1.0">
     <title>alberto code</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
+    6.5.1/css/all.min.css">
   </head>
   <body> 
+    <div class="main">
       <header>
-        <h1>Alberto code</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="a-propos.html">About</a></li>
-            <li><a href="signup.html">Signup</a></li>
-            <li><a href="login.html">Login</a></li>
-          </ul>
-        </nav>
-    </header>
+        <nav class="navbar">
+          <div class="logo">
+            AlbertoLCA <span class="point">.</span>
+          </div>
+           <ul class="nav-links">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="a-propos.html">About</a></li>
+              <li><a href="signup.html">Signup</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>  
+      </header>
 
-    <main>
-      <section class="hero">
-        <div class="overlay"> 
-          
-          <h2>Welcome to my personnal website</h2>
-          <p>I am a beginner in web development.
+      <main>
+        <section class="hero">
+         <div class="hero-text"> 
+            <p class="intro">Hey, I am Alberto </p>
+            <h1>
+              <span class="purple">Welcome to my personnal</span>
+              <br> Website
+            </h1>
+            <p class="description">I am a beginner in web development.
               <br> This website is used to practice HTML,CSS and javascript,
               it is my learning space for web development.
-          </p> 
-        </div>
-        <div class="content">
-          <button>contact me</button>
-        </div>
-      </section>
-      <section class="about">
-        <div class="about-image">
-          <img src="alberto.jpg" alt="une photo de moi">
-        </div>
-        <div class="about-text">
-          <h2> My Current goal</h2>
-          <ul>
-            <li>Mastering HTML and CSS fundamentals </li>
-            <li>Learning javascript core concepts</li>
-            <li>Gaining proficiency in Git</li>
-            <li>Building fully functional web pages</li>
-          </ul>
-          <button class="click">Click me</button>
-        </div>
-      </section>
-      <section class="contact">
-        <div class="contact-left">
-          <p>They say good advice is worth its weight
-            in gold, so I'm here to strike it rich !
-          </p>
-          <p> I'm Alberto, and I'm just starting my journey in
-            Web development.
-          </p>
-          <p> If you'd like to share a bit of your wisdom or
-            give me a strategic boost, feel free to message me right here.
-            I promise to put it to good use !
-          </p>
-        </div>
-        <div class="contact-right">
-          <form>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="message"
-            required> </textarea>
-            <button type="submit">send</button>
-          </form>
-        </div> 
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-content">
-        <div class="footer-info">
-          <h2>Alberto</h2>
-          <p>This is my own portfolio</p>
-        </div>
-        <div class="footer-links">
-          <h3>Links</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        
-      </div>
-
-      <hr>
-      <div class="footer-bottom">
-        <p> &copy; 2026- All rights reserved</p>
-      </div>
+            </p> 
+            <div class="buttons"> 
+              <button class="btn-dark">Get in touch</button>
+              <button class="btn-light">Browse learning</button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="profile.jpg" alt="profile">
+          </div>
+        </section>
+        <section class="about">
+          <h2 class="about-title">
+            About me <span>.</span>
+          </h2>
+          <div class="about-description">
+            <p>
+              Learning beautifull and fonctional websites is 
+              what I love doing, and that's why I give all in
+              every new challenge 
+            </p>
+          </div>
+          <div class="about-content"> 
+            <div class="stack">
+              <h3>My stack<span>.</span>
+              </h3>
+              <div class="stack-items">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive design</span>
+                <span>Flexbox</span>
+                <span>CSS Grid</span>
+                <span>Git</span>
+                <span>Web development basics</span>
+              </div>
+            </div>
+            <div class="special-place">
+              <h3>
+                My Workspace
+              </h3>
+              <div class="place-image">
+                <img src="coding.png" alt="coding environment">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skills">
+          <h2 class="skills-title">Skills<span>.</span></h2>
+          <div class="skills-content">
+            <div class="skill-box">
+              <h3>Web design</h3>
+              <p>Responsive design</p>
+              <p>UI/UX design</p>
+              <p>wireframing</p>
+              <p>user research</p>
+            </div>
+            <div class="skill-box">
+              <h3>Frontend</h3>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>javascript</p>
+              <p>Flexbox and Grid</p>
+            </div>
+            <div class="skill-box">
+              <h3>Backend</h3>
+              <p>Learning...</p>
+              <p>Node.js</p>
+              <p>Apis (basics)</p>
+            </div>
+            <div class="skill-box">
+              <h3>Soft skillis</h3>
+              <p>Communication</p>
+              <p>Discipline</p>
+              <p>Consistency</p>
+              <p>Problem solving</p>
+            </div>
+          </div>
+        </section>
+        <section class="experience">
+          <h2 class="experience-title">
+            Learning Journey <span>.</span>
+          </h2>
+          <div class="experience-content">
+            <div class="experience-list">
+              <p class="active">Wed Development</p>
+              <p>HTML and CSS</p>
+              <p>Javascript</p>
+              <p>Projects</p>
+              <p>Next Goals</p>
+            </div>
+            <div class="experience-details">
+              <h3>
+                Learning Frontend Development 
+              </h3>
+              <p class="date">2025-Present
+              </p>
+              <ul>
+                <li>Building website using HTML and CSS</li>
+                <li>Learning layout techniques (Flexbox and Grid)</li>
+                <li>Creating personnal projects to impove my skills</li>
+                <li>Practicing Git and version control</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main> 
+    </div>
+    <footer class="footer">
+      <p>&copy; 2026-Alberto La Carte. All rights reserved.</p>
     </footer>
-  
   </body>
 </html>
